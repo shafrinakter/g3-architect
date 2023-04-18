@@ -85,6 +85,20 @@
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
     }
+    /* sponspors-style */
+    .sponspors{
+        width: 100%;
+    }
+    .spnspors-img{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
 
-
+    }
+    .spnspors-img img{
+        width:200px;
+        height: 50px;
+        margin-bottom: 40px;
+        margin-left: 35%;
+    }
 }

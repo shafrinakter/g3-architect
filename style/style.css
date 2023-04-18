@@ -164,7 +164,9 @@ small {
 .facts-description {
     width: 50%;
 }
-
+.facts{
+    margin-bottom: 80px;
+}
 .fact-box-content {
     display: flex;
     
@@ -185,4 +187,35 @@ small {
 .fact-box img {
     width: 45.22px;
     height: 45.22px;
+}
+/* spnspors-style */
+.spnspors-details{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.spnspors-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.spnspors-img img{
+    width: 166.76px;
+    height: 50px;
+    color: gray;
+    filter: invert(0%)  sepia(0%) saturate(0%) hue-rotate(76deg) brightness(96%);
+}
+/* footer-style */
+footer{
+    width: 100%;
+    margin: 70px 0;
+}
+.footer-cotent{
+    width: 80%;
+    /* height: 100px; */
+    margin: auto;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 40px;
+
 }
